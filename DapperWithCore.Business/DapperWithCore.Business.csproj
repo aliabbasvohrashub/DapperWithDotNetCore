@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DapperWithCore.Business.Interfaces\DapperWithCore.Business.Interfaces.csproj" />
+    <ProjectReference Include="..\DapperWithCore.Entities\DapperWithCore.Entities.csproj" />
+    <ProjectReference Include="..\DapperWithCore.Repository.Interfaces\DapperWithCore.Repository.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
